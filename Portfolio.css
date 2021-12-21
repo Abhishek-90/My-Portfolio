@@ -1,7 +1,86 @@
-.myphoto {
-    height: 370px;
-    width: 370px;
-    /* background-color: aqua; */
+@media screen and (max-width : 480px) {
+    .my-info {
+        display: flex;
+        flex-direction: column-reverse;
+        /* background-color: aqua; */
+        justify-content: space-evenly;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 100vh;;
+        align-items: center;
+    }
+
+    .myphoto {
+        height: 270px;
+        width: 270px;
+        /* background-color: aqua; */
+    }
+
+    .about-me-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-para {
+        font-weight: 400;
+        font-size: large;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .connect-items {
+        margin-top: 40px;
+    }
+
+    .connect-item {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width : 481px) {
+
+    .my-info {
+        display: flex;
+        flex-direction: row-reverse;
+        /* background-color: aqua; */
+        justify-content: space-evenly;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 100vh;;
+        align-items: center;
+    }
+
+    .myphoto {
+        height: 370px;
+        width: 370px;
+        /* background-color: aqua; */
+    }
+
+    .about-me-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-me-para {
+        font-weight: 400;
+        font-size: large;
+    }
+
+    .about {
+        width: 50%;
+    }
+
+    .connect-heading {
+        margin-left: 30px;
+    }
+
+    .connect-items {
+        margin-top: 40px;
+    }
+
+    .connect-item {
+        margin-right: 20px;
+    }
 }
 
 img {
@@ -9,30 +88,10 @@ img {
     width: 100%;
 }
 
-.my-info {
-    display: flex;
-    flex-direction: row;
-    /* background-color: aqua; */
-    justify-content: space-evenly;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 100vh;;
-    align-items: center;
-}
-
-.about-me-para {
-    font-weight: 400;
-    font-size: large;
-}
-
-.about {
-    width: 50%;
-}
-
 ul {
     list-style-type: none;
 }
 
-.about-me-2 {
-    display: flex;
-    flex-direction: row;
+body {
+    background-color: rgb(253, 246, 246);
 }
