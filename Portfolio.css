@@ -5,14 +5,13 @@
         /* background-color: aqua; */
         justify-content: space-evenly;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        height: 100vh;;
+        height: 100vh;
         align-items: center;
     }
 
     .myphoto {
         height: 270px;
         width: 270px;
-        /* background-color: aqua; */
     }
 
     .about-me-2 {
@@ -35,12 +34,32 @@
 
     ul {
         list-style-type: none;
-        margin-left: 0px;
-        margin-right: 10px;
     }
 
     .connect-item {
         margin-right: 15px;
+    }
+
+    .tech-items {
+        display: grid;
+    }
+
+    .tech-item {
+        display: flex;
+        flex-direction: row;
+        height: 95%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tech-name {
+        margin-left: 10px;
+        margin-right: 75px;
+        align-items: center;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
     }
 }
 
@@ -49,17 +68,15 @@
     .my-info {
         display: flex;
         flex-direction: row-reverse;
-        /* background-color: aqua; */
         justify-content: space-evenly;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        height: 100vh;;
+        height: 100vh;
         align-items: center;
     }
 
     .myphoto {
         height: 370px;
         width: 370px;
-        /* background-color: aqua; */
     }
 
     .about-me-2 {
@@ -91,6 +108,14 @@
     ul {
         list-style-type: none;
     }
+
+    .tech-items {
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-template-rows: repeat(3, 70px);
+        justify-content: space-between;
+        align-content: space-around;
+    }
 }
 
 img {
@@ -100,4 +125,26 @@ img {
 
 body {
     background-color: rgb(253, 246, 246);
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: row;
+    height: 95%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-image {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+.tech-name {
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
 }
