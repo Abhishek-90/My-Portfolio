@@ -31,7 +31,10 @@
     }
 
     .connect-items {
-        margin-top: 40px;
+        margin-top: 20px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction:column
     }
 
     .contact > ul {
@@ -39,7 +42,8 @@
     }
 
     .connect-item {
-        margin-right: 15px;
+        /* margin-right: 15px; */
+        background-color:blue;
     }
 
     .tech-items {
@@ -63,7 +67,7 @@
         font-size: larger;
     }
 
-    .company-name {
+    .company-name, .college {
         display: flex;
         flex-direction: column;
         /* background-color: aqua; */
@@ -151,7 +155,7 @@
         list-style-type: none;
     }
 
-    .company-name {
+    .company-name, .college {
         display: flex;
         flex-direction: row;
         /* background-color: aqua; */
