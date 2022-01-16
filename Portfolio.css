@@ -128,7 +128,7 @@
     }
 
     .about {
-        width: 50%;
+        margin-left: 30px;
     }
 
     .connect-heading {
@@ -198,6 +198,14 @@
         margin-left: 30px;
         font-size: large;
     }
+
+    .contact {
+        margin-top: 35px;
+    }
+}
+
+.gap {
+    margin-bottom: 50px;
 }
 
 
