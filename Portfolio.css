@@ -156,14 +156,14 @@
     .tech-items {
         display: grid;
         grid-template-columns:repeat(4, 1fr);
-        grid-template-rows: repeat(2, 85px);
+        grid-template-rows: repeat(2, 75px);
         justify-content: space-between;
         align-content: space-around;
     }
 
     .tech-image {
-        height: 45px;
-        width: 45px;
+        height: 35px;
+        width: 35px;
         margin-right: 10px;
         margin-left: 20px;
     }
