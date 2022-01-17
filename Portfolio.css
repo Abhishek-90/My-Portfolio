@@ -105,6 +105,30 @@
     .time-position {
         margin-left: 30px;
     }
+
+    .contact {
+        margin-top: 4rem;
+    }
+
+    .tech-stack {
+        margin-top: 4rem ;
+    }
+
+    .experience {
+        margin-top: 4rem ;
+    }
+
+    .education {
+        margin-top: 4rem ;
+    }
+
+    .project {
+        margin-top: 2rem;
+    }
+
+    .project-details {
+        margin-top: 4rem ;
+    }
 }
 
 @media screen and (min-width : 481px) {
@@ -208,12 +232,36 @@
     }
 
     .contact {
-        margin-top: 40px;
+        margin-top: 4rem;
+    }
+
+    .tech-stack {
+        margin: 4rem 0 4rem 2rem ;
+    }
+
+    .experience {
+        margin: 0 0 4rem 2rem;
+    }
+
+    .education {
+        margin: 0 0 4rem 2rem;
+    }
+
+    .project {
+        margin-top: 2rem;
+    }
+
+    .project-details {
+        margin: 0 0 4rem 2rem;
     }
 }
 
+.name {
+    letter-spacing: 7px;
+}
 .gap {
     margin-bottom: 50px;
+    font-size: larger;
 }
 
 
