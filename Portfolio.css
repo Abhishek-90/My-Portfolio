@@ -129,9 +129,18 @@
     .project-details {
         margin-top: 4rem ;
     }
+
+    h1 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width : 481px) {
+    h1 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 4rem;
+    }
 
     .my-info {
         display: flex;
