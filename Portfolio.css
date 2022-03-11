@@ -7,8 +7,7 @@ html, body {
 @media screen and (max-width : 480px) {
     .my-info {
         display: flex;
-        flex-direction: column-reverse;
-        /* background-color: aqua; */
+        flex-direction: column;
         justify-content: space-evenly;
         font-weight: 600;
         font-stretch: expanded;
@@ -17,13 +16,8 @@ html, body {
     }
 
     .myphoto {
-        height: 270px;
-        width: 270px;
-    }
-
-    .about-me-2 {
-        display: flex;
-        flex-direction: column;
+        height: 22rem;
+        width: 22rem;
     }
 
     .about-me-para {
@@ -36,19 +30,11 @@ html, body {
     }
 
     .connect-items {
-        margin-top: 20px;
-        /* background-color: aqua; */
-        display: flex;
-        flex-direction:column
+        margin-top: 2rem;
     }
 
     .contact > ul {
         list-style-type: none;
-    }
-
-    .connect-item {
-        /* margin-right: 15px; */
-        background-color:blue;
     }
 
     .tech-items {
@@ -67,23 +53,18 @@ html, body {
     .tech-name {
         margin-left: 10px;
         margin-right: 75px;
-        /* margin-bottom: 20px; */
         align-items: center;
         text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: larger;
-        /* background-color: aqua; */
     }
 
     .tech-name-text {
         margin-bottom: 10px;
-        /* background-color: aqua; */
     }
 
     .company-name, .college {
         display: flex;
         flex-direction: column;
-        /* background-color: aqua; */
     }
 
     .tech-image {
@@ -136,7 +117,6 @@ html, body {
     }
 
     h1 {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 2rem;
     }
 }
@@ -148,7 +128,6 @@ html, body {
 
     .my-info {
         display: flex;
-        flex-direction: row-reverse;
         justify-content: space-evenly;
         height: 90vh;
         align-items: center;
@@ -158,11 +137,6 @@ html, body {
     .myphoto {
         height: 22rem;
         width: 22rem;
-    }
-
-    .about-me-2 {
-        display: flex;
-        flex-direction: row;
     }
 
     .about-me-para {
@@ -179,7 +153,7 @@ html, body {
     }
 
     .connect-items {
-        margin-top: 40px;
+        margin-top: 2rem;
     }
 
     .connect-item {
@@ -193,13 +167,12 @@ html, body {
     .company-name, .college {
         display: flex;
         flex-direction: row;
-        /* background-color: aqua; */
     }
 
     .tech-items {
         display: grid;
         grid-template-columns:repeat(4, 1fr);
-        grid-template-rows: repeat(2, 75px);
+        grid-template-rows: repeat(2, 5rem);
         justify-content: space-between;
         align-content: space-around;
     }
@@ -246,7 +219,7 @@ html, body {
     }
 
     .tech-stack {
-        margin: 4rem 0 4rem 2rem ;
+        margin: 4rem 2rem;
     }
 
     .experience {
