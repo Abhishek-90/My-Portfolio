@@ -78,12 +78,12 @@ html, body {
 
     a {
         text-decoration: none;
-        margin-left: 30px;
+        margin-left: 1.4rem;
         font-size: medium;
     }
 
     .time-position {
-        margin-left: 30px;
+        margin-left: 1.4rem;
     }
 
     .contact {
@@ -139,11 +139,11 @@ html, body {
     }
 
     .about {
-        margin-left: 30px;
+        margin-left: 1.4rem;
     }
 
     .connect-heading {
-        margin-left: 30px;
+        margin-left: 1.4rem;
     }
 
     .connect-items {
@@ -151,7 +151,7 @@ html, body {
     }
 
     .connect-item {
-        margin-right: 20px;
+        margin-right: 1.2rem;
     }
 
     .contact > ul {
@@ -174,8 +174,8 @@ html, body {
     .tech-image {
         height: 2rem;
         width: 2.1rem;
-        margin-right: 10px;
-        margin-left: 20px;
+        margin-right: 0.8rem;
+        margin-left: 1.2rem;
     }
     
     .tech-name {
@@ -204,7 +204,7 @@ html, body {
 
     a {
         text-decoration: none;
-        margin-left: 30px;
+        margin-left: 1.4rem;
         font-size: large;
     }
 
@@ -237,7 +237,7 @@ html, body {
     letter-spacing: 0.2rem;
 }
 .gap {
-    margin-bottom: 50px;
+    margin-bottom: 6rem;
     font-size: larger;
 }
 
