@@ -150,15 +150,14 @@ html, body {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
-        font-size: 70px;
         height: 90vh;
         align-items: center;
-        letter-spacing: 2px;
+        letter-spacing: 0.2rem;
     }
 
     .myphoto {
-        height: 370px;
-        width: 370px;
+        height: 22rem;
+        width: 22rem;
     }
 
     .about-me-2 {
@@ -216,7 +215,6 @@ html, body {
         margin-left: 10px;
         align-items: center;
         text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: larger;
     }
 
@@ -269,7 +267,7 @@ html, body {
 }
 
 .name {
-    letter-spacing: 7px;
+    letter-spacing: 0.2rem;
 }
 .gap {
     margin-bottom: 50px;
